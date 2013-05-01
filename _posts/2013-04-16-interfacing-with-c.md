@@ -430,7 +430,7 @@ void cos_doubles(double * in_array, double * out_array, int size){
 因为这个库是纯C的，我们不能使用`distutils`来编译它。必须同时使用`make`和`gcc`:
 
 
-{% highlight mak %}
+{% highlight c %}
 m.PHONY : clean
 
 libcos_doubles.so : cos_doubles.o
