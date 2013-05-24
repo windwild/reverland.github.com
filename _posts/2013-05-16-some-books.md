@@ -3,7 +3,7 @@ layout: post
 title: "我是如何浪费生命"
 excerpt: "关于《Professional Assembly Language》、《Debug Hacks》、《Gray Hat Python: Python Programming for Hackers and Reverse Engineers》、《Reverse Engineering Code with IDA pro》"
 category: reviews
-tags: [reviews]
+tags: [books, Life]
 disqus: true
 ---
 {% include JB/setup %}
@@ -97,7 +97,7 @@ K & R也许真不适合入门，但我还是想给初学者推荐(莫喷……)�
     珍爱生命，远离计算机
     珍愛生命，遠離計算機
     Cherish life, away from the computer
-    コンピュータから離れ、命を大切に
+    大切な命のため、コンピュータから離れてください
     Chérir la vie, loin de l'ordinateur
     Берегите жизнь, вдали от компьютера
     Cherish Leben, weg vom Computer
@@ -108,6 +108,38 @@ K & R也许真不适合入门，但我还是想给初学者推荐(莫喷……)�
 人生得意须尽欢：）
 
 花堪折时只须折：）
+
+## 补记
+
+Fri 24 May 2013 07:03:04 PM CST 
+
+谣传要交论文，基本上是两天给弄完了，好在之前真是认真了解这个课题了，吹起牛来一气呵成。
+
+快毕业了一堆事，又是转党组织关系的又是填毕业登记表，又是毕业照体检。
+
+班里没有毕业旅行感觉太好了，毫无兴致。
+
+毕业把妹这种事……我还是不抱希望了……
+
+整日整日地沉迷在图书馆和计算机前，偶尔的偶尔一个人出去转转。
+
+哈，东边小操场没什么人，太喜欢在那边跑步了，江南的夜色依旧很美。记得有次跟着一个妹子跑了半个小时，第二天直接虚掉了= =
+
+这几天就看了Professional Assembly Language一本书，断断续续看到浮点计算。把书上的代码跟着打了一遍，不得不说这本书真棒。例子都是神来之笔。
+
+开始看《Hacking: The Art of Exploitation》, C语言那部分的例子真是让人觉得相见恨晚，由于看过以上几本书对汇编和堆栈比较熟悉发现看着真是享受。准备把书中所有的代码打一遍，太好玩了。
+
+借了本《别闹了，费曼先生》，看得五体投地，这才是真黑客，真物理学家和数学家。
+
+借了本《数学大师：从芝诺到庞加莱》，不得不说多好的一本书译得真有些不好懂……
+
+这两本书我想单独写读后感。
+
+因为毕业季一堆事，Coursera上Machine Learning这周到现在基本没看，High performance Scientific Computing直接被落下了，上周的视频还没看完，再加上进入Fortran和makefile的课题了，总有些力不从心。
+
+最后吐槽下Girl-atlas，新上传的图像不仅打上水印而且只能查看缩略图了，而且下载链接也被移除了。很不爽，不能做壁纸的小图完全没有兴致再用脚本抓了。
+
+结果愤而转向其它网站开始抓图……比如[Motu](http://www.motu123.com/S_Cute/)(** Maybe 18X,慎点 **), 再也没有[girl-atlas](http://girl-atlas.com/)老少咸宜高清无码的品味了。无论是图像更新及时度，图像质量，网站质量，girl-atlas做的都是最棒的.
 
 ## FootNotes
 
