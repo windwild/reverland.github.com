@@ -3,7 +3,7 @@ layout: post
 title: "二维相位去包裹：路径积分法"
 excerpt: "Part of my graduation project. Two-dimensional phase unwrapping"
 category: phase-unwrapping
-tags: [phase unwrapping]
+tags: [phase-unwrapping]
 disqus: true
 mathjax: true
 ---
