@@ -267,6 +267,8 @@ Finally you will see, the most effective way to avoid any AV, however, is to wri
 
 Last, I'll introduce [Veil](https://github.com/ChrisTruncer/Veil/) to you. It's really a amazing tool for penetration testers.
 
+Lastly, Chinese: 英文作文真难写……
+
 ## Reference
 
 You can find more below and special thanks to them:
