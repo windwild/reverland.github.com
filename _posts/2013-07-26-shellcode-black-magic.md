@@ -178,7 +178,7 @@ shellcode中的地址都应该是相对取地址，因为不知道shellcode会�
 我们利用栈完成一切相对取址。通过操作我们使栈顶看起来这样
 
     +++++
-    "bin/"  <-- 地址1：四字节，32位字符串,同时这里是栈顶，即esp(在ia32架构中是这样)
+    "/bin"  <-- 地址1：四字节，32位字符串,同时这里是栈顶，即esp(在ia32架构中是这样)
     +++++
     "//sh"  <-- 地址2：32位字符串，//在unix系统中与/并无区别
     +++++
@@ -206,7 +206,7 @@ mov ebx, esp
     +++++
     NULL    <-- 新栈顶，NULL
     +++++
-    "bin/"  <-- 地址1：四字节，32位字符串地址
+    "/bin"  <-- 地址1：四字节，32位字符串地址
     +++++
     "//sh"  <-- 地址2：32位字符串，//在unix系统中与/并无区别
     +++++
@@ -228,7 +228,7 @@ mov edx, esp
     +++++
     NULL    <-- NULL
     +++++
-    "bin/"  <-- 地址1：四字节，32位字符串地址
+    "/bin"  <-- 地址1：四字节，32位字符串地址
     +++++
     "//sh"  <-- 地址2：32位字符串，//在unix系统中与/并无区别
     +++++
@@ -289,7 +289,7 @@ int main(void)
   dup2(new_sockfd, 0);
   dup2(new_sockfd, 1);
   dup2(new_sockfd, 2);
-  char *newargv[] = { "bin/sh", NULL };
+  char *newargv[] = { "/bin/sh", NULL };
   char *newenviron[] = { NULL };
   execve("/bin/sh", newargv, newenviron);
 }
