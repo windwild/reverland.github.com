@@ -13,7 +13,7 @@ Ok, This article is about why and how can you bypass antivirus softwares when yo
 1. Don't be stupid. Do anything at your own risk.
 2. There is nothing too hard to learn. If you find something really hard to understand. [Try harder](http://www.offensive-security.com/when-things-get-tough/), you may lack of some necessary requirements, please refer to References section yourself. 
 3. There are lots of Unix tools to use for linux, so I use gentoo linux as my experiment environment. You can use anything you like.
-4. I'm not a native English speaker, but I hope this article is interesting and useful to many non-Chinese speakers. So I write every word in a language I'm not familiar. The article may full with mistakes, but you can understand what I'm saying is enough. Happy hacking.
+4. I'm not a native English speaker, but I hope this article is interesting and useful to many non-Chinese speakers. So I write every word in a language I'm not familiar. The article may full with grammer mistakes, but you can understand what I'm saying is enough. Happy hacking.
 5. Last but not least, Never upload your samples to a online scanner website like virustotal or so if you are a penetration tester and want to use your payload later. Check it on your local machine. you can alse try [novirusthanks](http://vscan.novirusthanks.org/) with `Do not distribute the sample` marked.
 
 ## Theory: How Antivirus software works
@@ -182,7 +182,7 @@ The final bypass all report is [here](https://www.metascan-online.com/en/scanres
 
 Another thing to mention, I just upload it to virusnothanks when I did my experiments, for I don't want to make the experiment uncerntainly. But now upload to anywhere is ok. If you want to do some experiments for several days, do not upload it to virustotal or metascan or viruscan and so on. You suspicious payload will be marked in one day.(Kaspersky really mark my payload in one day!)
 
-I finally write a script to facilitate my work, you can try yourself one. Similar to this:
+I finally write scripts which generate random instructions for assemble language, encrypt or simply upsidedown shellcodes and automatic the whole process to facilitate my work. you can try one yourself. Similar to this one:
 
     {% highlight bash %}
     #! /bin/env bash
@@ -263,9 +263,9 @@ I finally write a script to facilitate my work, you can try yourself one. Simila
 
 Theory about how AV detect are easy to understand and bypass, but AV vendors will also exert to detect malwares. Some may useful, some may outdated. These techs are sprayed among the Reference section, you can also google more. I don't talk about it much. The world is changing quickly(especially for security), check it by yourselves.
 
-Finally you will see, the most effective way to avoid any AV, however, is to write your own tools and use them your own way. All you need is just to be creative. 
+Finally you will see, the most effective way to avoid any AV, however, is to write your own tools or use them your own way. All you need is just to be creative. 
 
-Last, I'll introduce [Veil](https://github.com/ChrisTruncer/Veil/) to you. It's really a amazing tool for penetration testers.
+Last, I'll recommend [Veil](https://github.com/ChrisTruncer/Veil/) to you. It's really a amazing tool for penetration testers.
 
 Lastly, Chinese: 英文作文真难写……
 
