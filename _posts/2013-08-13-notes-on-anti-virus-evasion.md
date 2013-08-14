@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notes on Anti-virus Evasion"
-excerpt: "反病毒软件调戏笔记"
+excerpt: "反病毒软件调戏笔记: 如何使用metasploit项目的shellcode且不被反恶意软件查出"
 category: exploit
 tags: [anti-virus]
 disqus: true

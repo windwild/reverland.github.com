@@ -47,4 +47,6 @@ I just wanna to say to others:
 [4]: http://twitter.com/lhtlyy
 [5]: http://www.renren.com/306127150
 
+## Comments
+
 {% include JB/comments %}
